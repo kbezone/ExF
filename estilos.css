@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #007bff;
+    color: white;
+}
+
+section {
+    padding: 50px 0;
+}
+
+#sobre-mi img {
+    border: 5px solid #007bff;
+}
+
+#experiencia .list-group-item {
+    font-size: 18px;
+    border-left: 5px solid #007bff;
+    margin-bottom: 10px;
+}
+
+#testimonios {
+    background: gray;
+}
+
+.carousel-item {
+    font-size: 20px;
+    color: #555;
+}
+
+#proyectos .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#proyectos .card:hover {
+    transform: scale(1.05);
+}
+
+#contacto .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    padding: 20px 0;
+}

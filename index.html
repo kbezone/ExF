@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Bienvenido a mi Portafolio</h1>
+            <p class="lead">Conoce más sobre mi trabajo y experiencia profesional</p>
+        </div>
+    </header>
+
+    <section id="sobre-mi" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Sobre mí</h2>
+            <p class="lead">Soy un desarrollador web apasionado por crear sitios web funcionales y atractivos.</p>
+            <img src="img/yo.jpg" alt="Mi Foto" class="rounded-circle img-fluid" style="width: 150px;">
+        </div>
+    </section>
+
+    <section id="experiencia" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Experiencia</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Desarrollador Web</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem omnis magnam pariatur officia architecto vel ab, cumque, delectus ratione laborum in neque consequuntur iusto dolorem. Adipisci magni a necessitatibus impedit!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Estudiante</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quam eum ex similique! Labore doloribus, esse tempore quod nemo explicabo aspernatur et obcaecati ipsam neque? Modi mollitia amet voluptates minus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonios" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Testimonios</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat minima eveniet qui fuga, aut assumenda blanditiis doloribus voluptatem, unde fugit tempore beatae, labore velit omnis! Totam ad tenetur accusamus atque. Facilis excepturi quaerat debitis adipisci a repudiandae amet aliquam at.
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam incidunt, doloremque corrupti a debitis minima suscipit recusandae cum exercitationem, eum fugiat rem laudantium expedita praesentium consequatur enim tenetur libero dolore nam. Quibusdam asperiores delectus enim dignissimos.</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Proyectos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/1.jpg" class="img-fluid rounded" alt="Proyecto 1">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/2.png" class="img-fluid rounded" alt="Proyecto 2">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/3.png" class="img-fluid rounded" alt="Proyecto 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Contacto</h2>
+            <p>¡Hablemos! Puedes contactarme a través de mis redes sociales.</p>
+            <div class="d-flex justify-content-center">
+                <a href="https://github.com/kbezone" class="btn btn-secondary mx-2">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
